@@ -1,2 +1,10 @@
-package PACKAGE_NAME;public class ThrowsExample {
+import java.io.*;
+public class ThrowsExample {
+    public static void main(String[] args) throws IOException
+    {
+
+            throw new IOException();
+
+
+    }
 }
